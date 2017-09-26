@@ -1,0 +1,33 @@
+body {
+	background-image: url(../images/grey_wash_wall.png);
+}
+
+.card {
+	padding: 15px;
+	margin-top: 15%;
+	width: 35%;
+	text-align: center;
+}
+
+#startbutton {
+	width: 50%;
+}
+
+#questionNumber {
+	text-align: center;
+	background: red;
+}
+
+#question {
+	text-align: center;
+	background: blue;
+}
+
+.list-group {
+	text-align: center;
+	width: 50%;
+}
+
+.container {
+	margin-top: 12%;
+}
