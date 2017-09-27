@@ -23,6 +23,11 @@ body {
 	background: blue;
 }
 
+.col-md-4 {
+	text-align: center;
+	background: yellow;
+}
+
 .list-group {
 	text-align: center;
 	width: 50%;
