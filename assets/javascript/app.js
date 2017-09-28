@@ -81,7 +81,7 @@ function clickanswer1detector() {
 
 	if (lockstate === false) {
 		if($(this).html() === (question1).rightanswer) {
-			nexttime=3;
+			nexttime=4;
 			timervar2 = setInterval(function() {
 				nexttime--;
 				console.log(nexttime);
@@ -166,3 +166,5 @@ function answer2detector() {
 function answerpage() {
 
 }
+
+start();

@@ -15,18 +15,32 @@ body {
 
 #questionNumber {
 	text-align: center;
-	background: red;
-}
+	margin-bottom: 10px;
+	background-color: blue;
+	color: white;
+	border: solid 2px white;
+	border-radius: 8px;
+/*	background: red;
+*/}
 
 #question {
 	text-align: center;
-	background: blue;
-}
+	margin-bottom: 10px;
+	background-color: white;
+	border: solid 2px white;
+	border-radius: 8px;
+	/*	background: blue;
+*/}
 
 #timeleft {
 	text-align: center;
-	background: yellow;
-}
+	margin-bottom: 10px;
+	background-color: orange;
+	color: white;
+	border: solid 2px white;
+	border-radius: 8px;
+	/*	background: yellow;
+*/}
 
 .list-group {
 	text-align: center;
