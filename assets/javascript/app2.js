@@ -63,9 +63,9 @@ function timer() {
 				// Sets the next question after 3 seconds:
 				if (currentquestion === 3) {
 					clearInterval(timevar);
-					setTimeout(scorepage, 4000);
+					setTimeout(scorepage, 000);
 				} else {
-					setTimeout(setquestion, 4000);
+					setTimeout(setquestion, 3000);
 					currentquestion++;
 				}
 			}
@@ -103,12 +103,12 @@ function answerdetector() {
 		$(this).css("background-color", "lightgreen");
 		$("#timeleft").html("Congratulations! That was the correct answer");
 		if (currentquestion !== 3) {
-			setTimeout(setquestion, 4000);
+			setTimeout(setquestion, 3000);
 			currentquestion++;
 			time = 30;
 		} else {
 			clearInterval(timevar);
-			setTimeout(scorepage, 4000);
+			setTimeout(scorepage, 3000);
 		}
 	} 
 
@@ -131,12 +131,12 @@ function answerdetector() {
 
 		$(this).css("background-color", "tomato");
 		if (currentquestion !== 3) {
-			setTimeout(setquestion, 4000);
+			setTimeout(setquestion, 3000);
 			currentquestion++;
 			time = 30;
 		} else {
 			clearInterval(timevar);
-			setTimeout(scorepage, 4000);
+			setTimeout(scorepage, 3000);
 		}
 	}
 }
