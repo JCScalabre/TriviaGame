@@ -23,7 +23,7 @@ body {
 	background: blue;
 }
 
-.col-md-4 {
+#timeleft {
 	text-align: center;
 	background: yellow;
 }
@@ -35,4 +35,8 @@ body {
 
 .container {
 	margin-top: 12%;
+}
+
+#timeleft, #questionNumber, #question {
+	font-size: 30px;
 }
