@@ -28,9 +28,6 @@ question4 = {
 
 ]
 
-// console.log(questions[0].rightanswer);
-// console.log(questions[0].answers[0]);
-
 // Variables: 
 
 var correctanswers = 0;
@@ -44,7 +41,6 @@ var currentquestion = 0;
 
 function timer() {
 	time--;
-	// console.log(time);
 	$("#timeleftnumber").html(time);
 	// When time is up:
 	if (time === 0) {
